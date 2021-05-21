@@ -156,7 +156,7 @@ header {
   color: var(--accent-color);
 }
 
-.address__link--icon {
+.address__icon {
   display: inline-flex;
   margin-right: 10px;
   align-items: center;
@@ -167,12 +167,12 @@ header {
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier);
 }
-.address__link--icon:hover {
+.address__icon:hover {
   fill: currentColor;
 }
 
-.link:hover .address__link--icon,
-.link:focus .address__link--icon {
+.link:hover .address__icon,
+.link:focus .address__icon {
   fill: currentColor;
 }
 .address .link {
